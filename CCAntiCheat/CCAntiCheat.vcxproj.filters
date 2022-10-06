@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CCAntiCheat.cpp" />
+    <ClCompile Include="Provider.h">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_b64prov.cpp">
+      <Filter>Core\extras</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PatternScan.h" />
+    <ClInclude Include="utils.h">
+      <Filter>Core\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>Core\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="ex_b64prov.h">
+      <Filter>Core\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="exsettings.h">
+      <Filter>Core\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="ccac_hook.h">
+      <Filter>Core\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="hookmanager.h">
+      <Filter>Core\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>Core\checking</Filter>
+    </ClInclude>
+    <ClInclude Include="handler.h">
+      <Filter>Core\checking</Filter>
+    </ClInclude>
+    <ClInclude Include="detects.h">
+      <Filter>Core\checking\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="punishments.h">
+      <Filter>Core\checking\actions\priority_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Signatures.h">
+      <Filter>Core\ext</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5ec41d93-45be-4421-b2c6-4b4ffbb656cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\hooking">
+      <UniqueIdentifier>{b8d93d47-f238-4345-b3b3-b6416a192bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\extras">
+      <UniqueIdentifier>{824e0248-9ac1-41ab-a217-6b1b66a0d223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\checking">
+      <UniqueIdentifier>{b1dd86ab-4613-4566-a88a-9f4eb25d977b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\checking\actions">
+      <UniqueIdentifier>{fc04360d-7231-4b6e-afc2-6a7f359f3fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\checking\actions\priority_actions">
+      <UniqueIdentifier>{fe1788f9-9bb2-42fe-a4c0-5981f98e941b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ext">
+      <UniqueIdentifier>{3e55b03e-a371-444d-b680-1ea2fc10c767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libMinHook.x86.lib">
+      <Filter>Core</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
